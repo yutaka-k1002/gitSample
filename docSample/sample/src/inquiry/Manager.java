@@ -19,6 +19,8 @@ public class Manager {
 		while(i < CNUM) {
 			if (counterList[i].getConditions() == ConditionType.OPEN) {
 				counterList[i].set(name);
+				System.out.print("No." + counterList[i].getNo() + ":");
+				System.out.println(name + "さん");
 				return;
 			}
 			i++;
