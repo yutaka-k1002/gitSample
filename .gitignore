@@ -1,0 +1,13 @@
+.recommenders/
+.metadata/
+
+#Java
+*.class
+*.jar
+*.war
+*.ear
+
+#eclipse
+.project
+.classpath
+.settings
