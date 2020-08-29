@@ -33,6 +33,8 @@ public class Manager {
 		if (counterList[no - 1].getConditions() != ConditionType.BUSY) {
 			System.out.println("対応していません。");
 			return;
+		} else {
+			System.out.println();
 		}
 		counterList[no - 1].free();
 	}
